@@ -11,7 +11,7 @@ def get_birthdays():
     '''
     global a #call a as global
     a = []
-    for i in range(100):
+    for i in range(23):
         a.append(random.randint(1, 365)) #put 23 random birthdates at the list
     return a
 
